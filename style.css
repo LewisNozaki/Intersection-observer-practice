@@ -28,3 +28,11 @@ p {
   color: #fff;
   text-align: center;
 }
+
+.fadeout {
+  opacity: 0;
+}
+
+.fadein {
+  opacity: 1;
+}
