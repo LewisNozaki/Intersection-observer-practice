@@ -6,6 +6,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,13 +21,15 @@ body {
 }
 
 p {
+  margin: 100px auto;
   width: 50%;
-  padding: 2em;
+  padding: 3em;
   font-size: 1.2em;
   border: none;
   background: salmon;
   color: #fff;
   text-align: center;
+  transition: opacity 0.3s;
 }
 
 .fadeout {
